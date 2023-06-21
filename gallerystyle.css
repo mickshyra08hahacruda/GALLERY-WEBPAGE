@@ -1,0 +1,43 @@
+body{
+	background-color: #FBF2FF;
+}
+body{
+	background-image: url(lavenderbg.png);
+	background-repeat: repeat;
+}
+*{
+  margin:1px; padding:1px;
+  box-sizing: border-box;
+  font-family: TimesNewRoman;
+}
+
+.container{
+  max-width: 85%;
+  margin:20px auto;
+}
+
+.container .title{
+  font-size: 45px;
+  background-color: #BE9CCD;
+  color:white;
+  border-radius: 7px;
+  margin-bottom: 25px;
+  text-align: center;
+  padding:10px;
+}
+
+.container .image-container{
+  columns:3 240px;
+  gap:15px;
+}
+
+.container .image-container img{
+  margin-bottom: 15px;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.zoom:hover img{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
